@@ -33,8 +33,7 @@ class MediaEventSubscriber extends BaseMediaEventSubscriber
     }
 
     /**
-     * @param  \Doctrine\Common\EventArgs $args
-     * @return void
+     * @param \Doctrine\Common\EventArgs $args
      */
     protected function recomputeSingleEntityChangeSet(EventArgs $args)
     {
@@ -47,7 +46,7 @@ class MediaEventSubscriber extends BaseMediaEventSubscriber
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     protected function getMedia(EventArgs $args)
     {
